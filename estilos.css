@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+ /* overflow: hidden;*/
+  font-family:"Manrope" ;
+  font-size: 13px;
+  
+}
+.contenido{
+  background-color: white;
+  overflow: hidden;
+  /*width: 375px;*/
+  height: 628px;
+  float: left;
+  border-radius: 15px;
+}
+.container{
+    overflow-y: scroll;
+    width: 375px;
+    height: 700px;
+    background-color: hsl(210, 46%, 95%);
+    margin: 10px;
+    float: left;
+    padding: 30px;
+}
+.ImgPrincipal{
+  float: left;
+  
+  position: absolute;
+  clip: rect(0px,375px, 250px,0px);
+  
+}
+
+
+.txtPrincipal{
+ font-weight: 700;
+ font-size: 22px;
+ padding-top: 300px;
+ padding-left: 30px;
+ text-align: left;
+
+}
+.txtSecundario{
+ /* font-size: 25px;*/
+  font-weight: 500;
+  font-size: 18px;
+  width: 85%;
+  padding-top: 18px;
+  padding-left: 30px;
+  line-height: 1.4;
+  text-align: left;
+  /*margin: auto;*/
+
+}
+.footer{
+  float: left;
+  width: 375px;
+  padding-top: 36px;
+
+}
+.avatar{
+  float: left;
+  /*width: 30px;*/
+  padding-left: 30px;
+  
+}
+
+.txtAvatar{
+  float: left;
+}
+.nombre{
+  /*float: left;*/
+  font-weight: 700;
+  font-size: 18px;
+  padding-left: 20px;
+  
+}
+.fecha{
+  float: left;
+  font-weight: 500;
+  font-size: 17px;
+  padding-left: 20px;
+  padding-top: 08px;
+ 
+}
+.iconCompartir{ /*La alineación no funciona*/
+  overflow: hidden;
+ /* float: left;*/
+ /* width: */
+  border-radius: 50%;
+  padding-left: 87px;
+  padding-top: 22px;
+ /* margin: 0px;*/
+  /* background-color: rgba(220, 229, 240, 0.993); */
+   
+  }
+
