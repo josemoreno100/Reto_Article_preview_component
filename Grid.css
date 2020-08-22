@@ -1,0 +1,53 @@
+@import url("https://fonts.google.com/specimen/Manrope");
+
+*{
+box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+.header {
+   grid-area: header;
+   background-color: rgb(218, 141, 19);
+}
+
+.navbar {
+   grid-area: navbar;
+   background-color: rgb(109, 101, 223);
+}
+
+.sidebar {
+   grid-area: sidebar;
+   background-color: rgb(101, 223, 176);
+}
+.sidebarI {
+   grid-area: sidebarI;
+   background-color: rgb(221, 223, 101);
+}
+.main {
+   grid-area: main;
+   background-color: rgb(26, 114, 77);
+}
+.footer {
+   grid-area: footer;
+   background-color: rgb(228, 157, 200);
+}
+html {
+   height: 100%;
+}
+body {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 13px;
+min-height: 100%;
+}
+.grid {
+   display: grid;
+   gap: 10px;
+   grid-template-areas: 
+   "header"
+   "navbar"
+   "sidebar"
+   "sidebarI"
+   "main"
+   "footer"
+   /*"boton"-->*/;
+}
